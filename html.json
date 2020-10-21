@@ -1,0 +1,66 @@
+{
+	"HTML5文档基本结构": {
+		"prefix": "ghtml",
+		"body": [
+            "<!DOCTYPE html>",
+			"<html lang=\"zh-CN\">",
+            "<head>",
+                "\t<meta charset=\"utf-8\">",
+                "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+                "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">",
+                "\t<meta name=\"author\" content=\"陈如斌\">",
+                "\t<title>$1</title>",
+                "\t<style>",
+                "\t\t",
+                "\t</style>",
+            "</head>",
+            "<body>",
+			    "\t$2",
+			"<script src=\"./jquery-3.4.1.js\"></script>",
+			"<script>",
+            "\t",
+            "</script>",
+            "</body>",
+            "</html>"
+		],
+		"description": "基本结构"
+	},
+	"vue文档基本结构": {
+		"prefix": "gvtml",
+		"body": [
+            "<!DOCTYPE html>",
+			"<html lang=\"zh-CN\">",
+            "<head>",
+                "\t<meta charset=\"utf-8\">",
+                "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+                "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">",
+                "\t<meta name=\"author\" content=\"陈如斌\">",
+				"\t<title>$1</title>",
+				"<script src=\"https://cdn.jsdelivr.net/npm/vue/dist/vue.js\"></script>",
+                "\t<style>",
+                "\t\t",
+                "\t</style>",
+            "</head>",
+						"<body>",
+						"\t<div id=\"app\">",
+						"\t",
+						"\t</div>",
+			    "\t$2",
+		
+			"<script>",
+						"\t",
+						"\t const app = new Vue({",
+						"\t   el:'#app',",
+						"\t   data: {",
+						"\t   ",
+						"\t   ",
+						"\t   }",
+						"\t  }) ",
+
+						"</script>",
+            "</body>",
+            "</html>"
+		],
+		"description": "基本结构"
+	}
+}
